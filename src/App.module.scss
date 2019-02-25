@@ -1,0 +1,17 @@
+.wrap, .result {
+  margin: 40px;
+}
+
+.test-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin-bottom: 5px;
+  height: 30px;
+
+  &__directions {
+    margin-right: 4px;
+    height: 30px;
+  }
+}
